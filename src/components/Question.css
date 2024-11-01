@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+
+    .question-container {
+
+        width: 100%;
+    }
+
+    .question-container h2 {
+        width: 120%;
+        font-size: 16px;
+    }
+
+    .question-img {
+        max-width: 95%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
