@@ -1,6 +1,6 @@
 import React from "react";
 import Quiz from "./components/Quiz";
-import { questions } from './assets/questions' // Assuming your questions array is in a separate file
+import { questions } from './assets/questions' 
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Question.css";
 const Question = ({ question, media }) => {
-    const imagePath = media ? `src/assets/pictures/${media}` : null;
+    const imagePath = media ? `public/src/assets/pictures/${media}` : null;
 
     return (
         <div className="question-container">
