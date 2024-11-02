@@ -82,7 +82,7 @@ const Quiz = ({ questions }) => {
             ) : currentQuestionIndex < questions.length ? (
                 <div className="quiz-question">
                     <Question {...questions[currentQuestionIndex]} />
-                    {timeRemaining <= 29 && <Options options={questions[currentQuestionIndex].options} onSelectOption={handleSelectOption} />}
+                    {timeRemaining <= 25 && <Options options={questions[currentQuestionIndex].options} onSelectOption={handleSelectOption} />}
                     <p className="timer">{timeRemaining}</p>
                 </div>
             ) : (
