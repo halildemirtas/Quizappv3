@@ -76,7 +76,7 @@ const Quiz = ({ questions }) => {
             {!quizStarted ? (
                 <div className="quiz-start">
                     <h2>Teste Başla</h2>
-                    <p>Test hakkında bilgilendirme metni...</p>
+                    <p>Teste hazır mısın?</p>
                     <StartButton onClick={startQuiz} />
                 </div>
             ) : currentQuestionIndex < questions.length ? (
